@@ -305,7 +305,7 @@ header {
 
 .icon-input input::placeholder {
     color: white;
-    font-family: "titilium web regular";
+    font-family: "titilium web";
     font-size: 16px;
 }
 
@@ -485,6 +485,16 @@ h2 {
     margin-top: 80px;
     margin-right: 18px;
 }
+
+footer .inside a::before {
+    content: "-";
+    color: #F9AA01;
+    width: 13px;
+    height: 0px;
+    display: flex;
+    align-items:center ;
+}
+
 
 .copyright {
     color: white;
@@ -690,7 +700,7 @@ h2 {
     }
 
     .agradecimentos * {
-        margin: 0 !important;
+        margin: 0;
     }
 
     .midiassociais-footer {
@@ -704,6 +714,7 @@ h2 {
         height: 257px;
         margin-bottom: 20px;
         align-self: flex-start;
+      
     }
 
     .Contatos-footer {
@@ -744,6 +755,20 @@ h2 {
 
     h5 {
         font-size: 30px;
+    }
+
+    footer .inside a::before {
+        content: "-";
+        color: #F9AA01;
+        width: 13px;
+        height: 0px;
+        display: flex;
+        align-items:center ;
+    }
+
+    .LinksUteis .inside {
+        width: 126px;
+        height: 243px;
     }
 
 }

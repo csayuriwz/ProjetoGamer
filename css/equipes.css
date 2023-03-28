@@ -549,6 +549,17 @@ h2 {
     margin-right: 18px;
 }
 
+footer .inside a::before {
+    content: "-";
+    color: #F9AA01;
+    width: 13px;
+    height: 0px;
+    display: flex;
+    align-items:center ;
+}
+
+
+
 .copyright {
     color: white;
     font-family: "titilium web";
@@ -825,6 +836,20 @@ h2 {
 
     h5 {
         font-size: 30px;
+    }
+
+    footer .inside a::before {
+        content: "-";
+        color: #F9AA01;
+        width: 13px;
+        height: 0px;
+        display: flex;
+        align-items:center ;
+    }
+
+    .LinksUteis .inside {
+        width: 126px;
+        height: 243px;
     }
 
 }
